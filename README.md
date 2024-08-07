@@ -1,11 +1,11 @@
-# CodeAlpha_NDIS
+# 🌟 CodeAlpha_NDIS
 ## Network Intrusion Detection System
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://www.svgrepo.com/svg/340465/intrusion-prevention)
+
 
 ### Code Explanation:
 The above program is for a rudimentary Real-Time Intrusion Detection system using  Python. The core library we use for packet sniffing is Scapy, which is a powerful Python-based interactive packet manipulation program & library.
 
-### Here’s a step-by-step breakdown:
+### 🚀 Here’s a step-by-step breakdown:
 
 
 We first import necessary modules: socket for network interactions, sys for system-specific parameters and functions, time for time-related tasks, and scapy for packet sniffing and crafting.
