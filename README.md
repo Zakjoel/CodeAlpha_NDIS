@@ -16,3 +16,15 @@ The packet_handler function is called by Scapy for every packet sniffed. It incr
 The sniff_traffic function starts the packet sniffing process with Scapy’s sniff function, passing the packet handler as the callback for each sniffed packet, and setting store as False to prevent keeping all packets in memory.
 In the if __name__ == '__main__': section, we instantiate the RealTimeIntrusionDetector and start the traffic sniffing.
 The expected console output will show a starting message, followed by intrusion detection alerts if any source IP exceeds the defined threshold of packets.
+
+## 🔧 Requirements
+Python 3.x
+Scapy
+sys
+Socket
+user_agents
+time
+collections
+## 📖 Usage
+Run the script (python3 NIDS.py).
+Terminate by pressing Ctrl+C.
