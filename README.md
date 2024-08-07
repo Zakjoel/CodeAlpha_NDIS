@@ -18,13 +18,13 @@ In the if __name__ == '__main__': section, we instantiate the RealTimeIntrusionD
 The expected console output will show a starting message, followed by intrusion detection alerts if any source IP exceeds the defined threshold of packets.
 
 ## 🔧 Requirements
-Python 3.x
-Scapy
-sys
-Socket
-user_agents
-time
-collections
+##### Python 3.x
+##### Scapy
+##### sys
+##### Socket
+##### user_agents
+##### time
+##### collections
 ## 📖 Usage
 Run the script (python3 NIDS.py).
 Terminate by pressing Ctrl+C.
